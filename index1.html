@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Start Assessment</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #001f3f, #74b9ff);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      text-align: center;
+      background: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    h1 {
+      color: #2d3436;
+    }
+    button {
+      background-color: #0984e3;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #74b9ff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to the Assessment</h1>
+    <p>Click below to begin your test.</p>
+    <button onclick="window.location.href='assesment1.html' ">Start Assessment</button>
+  </div>
+
+  <script>
+    function startAssessment() {
+      window.location.href = "assesment1.html";
+    }
+  </script>
+</body>
+</html>
